@@ -5,6 +5,8 @@
     --cream: #F0EEEE;
     --darkCream: #E5E5E5;
     --earth: #473B3B;
+    --openSans: 'Open Sans', sans-serif;
+    --abeezee: 'ABeeZee', sans-serif;
 }
 
 body {
@@ -15,7 +17,7 @@ body {
 nav {
     background-color: var(--purple);
     color: #FFFFFF;
-    padding: 1.5em 0;
+    padding: 1em 0;
 }
 
 nav ul {
@@ -24,23 +26,40 @@ nav ul {
 }
 
 nav ul li {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-family: var(--openSans);
+    font-size: 20px;
     font-weight: bold;
     list-style: none;
 
     margin: 0 1.5em;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    transform: scale(1.2);
 }
 
 /* MAIN */
-.sobre {
-    background-color: var(--cream);
-    height: 500px;
+
+section {
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    height: 33%;
 }
 
-.conteiner-sobre {
-    text-align: center;
-    padding-top: 3em;
+section h2, h4 {
+    color: var(--purple);
+    font-family: var(--openSans);
+}
+
+section p {
+    font-family: var(--abeezee);
+    font-size: 15px;
+}
+
+.sobre, .portfolio {
+    background-color: var(--cream);
 }
 
 .conteiner-sobre img {
@@ -50,38 +69,60 @@ nav ul li {
 }
 
 .conteiner-sobre h1, h3 {
-    margin: 4px 0;
+    font-family: var(--openSans);
+    margin: 3px 0;
 }
 
 .conteiner-sobre p {
-    width: 40%;
+    width: 60%;
     margin: 1em auto;
 }
 
-section h2 {
-    color: var(--purple);
-}
-
 .formacao {
-    border: 1px solid black;
-    height: 500px;
     background-color: var(--darkCream);
 }
 
-.conteiner-formacao {
-    margin: 2em 4em;
+.conteiner-formacao, .conteiner-portfolio {
+    margin: 2em 6em;
     text-align: left;
+    width: 70%;
 }
 
-.conteiner-formacao .texto {
-    margin: 2em 12em;
-    width: 40%;
+.texto {
+    margin: 2em 15em;
+    width: 60%;
 }
 
-.conteiner-formacao h4 {
-    margin: 0 0 0 0.5em;
+.texto h4 {
+    font-weight: bolder;
+    color: var(--gold);
 }
 
-.conteiner-formacao p {
-    margin: 0.5em;
+.texto a {
+    text-decoration: none;
+}
+
+/* .texto a:active {
+    color: var(--purple);
+} */
+
+.contato {
+    background-color: var(--purple);
+    padding: 3em 0;
+    font-family: var(--openSans);
+    font-size: 14px;
+}
+
+.contato li {
+    list-style: none;
+    margin: 1em;
+}
+
+.contato img {
+    width: 2%;
+    margin: 15px;
+}
+
+.contato a {
+    color: #FFFFFF;
 }
