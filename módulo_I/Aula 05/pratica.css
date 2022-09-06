@@ -4,14 +4,21 @@
 
 body {
     border: 1px solid black;
+    text-align: center;
+    background-color: #69F5CF;
+    color: #010034;
+}
+
+.titulo {
+    text-align: center;
 }
 
 .card {
     width: 425px;
     height: 212px;
-    border: 1px solid black;
+    border: 3px ridge rgb(245, 177, 52);
     margin: 10px 0 10px 11px;
-    padding: 10px;
+    padding: 15px 15px 0;
 
     display: inline-block;
 }
