@@ -1,0 +1,39 @@
+:root {
+    --purple: #4608AE;
+    --lightPurple: #C2BCE8;
+    --gold: #5C3615;
+    --cream: #F0EEEE;
+    --darkCream: #E5E5E5;
+    --earth: #473B3B;
+}
+
+/* HEADER */
+nav {
+    background-color: var(--purple);
+    color: #FFFFFF;
+    padding: 2em 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin: 0 2em;
+}
+
+/* MAIN */
+.sobre {
+    border: 1px solid black;
+    height: 500px;
+}
+
+.conteiner-sobre {
+    text-align: center;
+    margin: 4em auto;
+}
