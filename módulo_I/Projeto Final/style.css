@@ -67,8 +67,8 @@ section p {
 }
 
 .conteiner-sobre img {
-    border-radius: 30%;
-    width: 10%;
+    border-radius: 50%;
+    width: 15%;
     margin-bottom: 1em;
 }
 
@@ -77,8 +77,11 @@ section p {
     margin: 3px 0;
 }
 
+.conteiner-sobre h1 {
+}
+
 .conteiner-sobre p {
-    width: 60%;
+    width: 50%;
     margin: 1em auto;
 }
 
