@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Tabelas</title>
+</head>
+<body>
+    
+    <h2>Estrutura da tabela</h2>
+
+    <table border="4">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Silvia</td>
+                <td>45</td>
+                <td>Designer</td>
+            </tr>
+            <tr>
+                <td>Helena</td>
+                <td>22</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Rafaela</td>
+                <td>34</td>
+                <td>Deva</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+    <table border="1">
+        <tr>
+            <th>Idade</th>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <h2>Tags de Estrutura de Tabela</h2>
+
+    <table border="2">
+        <thead>
+            <tr>
+                <th>título 1</th>
+                <th>título 2</th>
+                <th>título 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Body1 linha1</td>
+                <td>Body2 linha1</td>
+                <td>Body3 linha1</td>
+            </tr>
+            <tr>
+                <td>Body1 linha2</td>
+                <td>Body2 linha2</td>
+                <td>Body3 linha2</td>
+            </tr>
+            <tr>
+                <td>Foot 1</td>
+                <td>Foot 2</td>
+                <td>Foot 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Criando células vazias</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Item </td>
+                <td>R$ </td>
+            </tr>
+            <tr>
+                <td>Item </td>
+                <td>R$ </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Mesclando células (colspab)</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th colspan="2">Telefones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>8888-8888</td>
+                <td>9999-9999</td>
+            </tr>
+            <tr>
+                <td>Luísa</td>
+                <td>1111-1111</td>
+                <td>2222-2222</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Mesclando células (rowspan)</h2>
+
+    <table border="1">
+            <tr>
+                <th>Primeiro Nome:</th>
+                <td>Ted</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Telefone:</th>
+                <td>8888-8888</td>
+            </tr>
+            <tr>
+                <td>9999-9999</td>
+            </tr>
+    </table>
+
+</body>
+</html>
