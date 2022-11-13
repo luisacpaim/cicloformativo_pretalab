@@ -1,11 +1,24 @@
-import { useState } from 'react'
-import './App.css'
-import Titulo from './components/Titulo'
-import Paragrafo from './components/Paragrafo'
-import Info from './components/Info'
-import Texto from './components/Texto'
+import './App.css';
+import Formulario from './components/Formulario';
 
 function App() {
+  return (
+    <>
+      <Formulario />
+    </>
+  );
+}; 
+
+
+export default App;
+
+
+
+
+
+/* as props são usadas como atributos da tag */
+/*function App() {
+
 
   return (
     <div>
@@ -23,6 +36,4 @@ function App() {
     
     </div>
   )
-} /* as props são usadas como atributos da tag */
-
-export default App
+}  */

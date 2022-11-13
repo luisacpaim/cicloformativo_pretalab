@@ -1,7 +1,7 @@
 function Titulo() {
     return (
-        <h1>Oi, eu sou um componente título!</h1>    
+        <h1>Meus álbuns mais ouvidos em 2022!</h1>    
     )
 }
 
-export default Titulo
+export default Titulo;
